@@ -14,7 +14,7 @@ Creates a Container which runs [techgaun's](https://github.com/techgaun) [Active
 ```
 ### Deploy on Rasbperry Pi
 Using the Dockerfile, this container can be built and run on a Raspberry Pi, too! I've tested it on a Raspberry Pi 3B+.
-Simply put the Dockerfile in a directory called `active-github-forks`, edit your `docker-compose.yml`:
+Simply put the Dockerfile in a directory called `active-github-forks` in the same directory as your docker-compose.yml, edit your docker-compose.yml:
 ```
   active-github-forks:
     container_name: active-github-forks
