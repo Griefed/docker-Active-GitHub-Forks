@@ -24,7 +24,7 @@ Simply put the Dockerfile in a directory called `active-github-forks`, edit your
       - 80:80
 ```
 Then build with:
-```
-docker-compose up -d --build active-github-forks
-```
+
+`docker-compose up -d --build active-github-forks`
+
 ![Active-Github-Forks](https://github.com/techgaun/active-forks/blob/master/screenshot.png)
