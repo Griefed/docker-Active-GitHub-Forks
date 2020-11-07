@@ -1,15 +1,18 @@
-FROM httpd:alpine
+FROM lsiobase/nginx:3.12
 
-LABEL   maintainer="Griefed <griefed@griefed.de>"
-LABEL   description="Based on https://techgaun.github.io/active-forks/index.html & https://github.com/techgaun/active-forks \
-This project allows you to find the most active forks of a repository."
+LABEL maintainer="Griefed <griefed@griefed.de>"
 
-WORKDIR /usr/local/apache2/htdocs
+RUN \
+    echo "**** Install dependencies, build tools and stuff ****" && \
+    apk add --no-cache \
+        git && \
+    echo "**** Cleanup ****" && \
+    rm -rf \
+        /root/.cache \
+        /tmp/*
 
-RUN     rm -R *
+COPY root/ /
 
-RUN     apk update && apk upgrade && apk add git                        && \
-        git clone https://github.com/techgaun/active-forks.git .        && \
-        apk del git
+EXPOSE 80 443
 
-EXPOSE 80
+VOLUME /config
