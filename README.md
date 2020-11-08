@@ -13,7 +13,7 @@ docker-Active-GitHub-Forks
 
 This project allows you to find the most active forks of a repository.
 
-[![active-forks](img/docker-active-gitHub-forks_screenshot.png)](https://github.com/techgaun/active-forks)
+[![active-forks](img/docker-active-github-forks_screenshot.png)](https://github.com/techgaun/active-forks)
 
 ---
 
