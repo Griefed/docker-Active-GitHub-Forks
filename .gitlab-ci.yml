@@ -44,7 +44,7 @@ publish:
   stage: publish
   script:
     - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD $DOCKER_REGISTRY
-    - docker build --tag $DOCKER_USER/$DOCKER_REPO:arm .
+    - docker build --cache-from $CI_REGISTRY_IMAGE:latest --tag $DOCKER_USER/$DOCKER_REPO:arm .
     - docker push $DOCKER_USER/$DOCKER_REPO:arm
     - docker system prune --all --force
 
