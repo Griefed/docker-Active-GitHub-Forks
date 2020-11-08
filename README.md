@@ -1,4 +1,4 @@
-[![docker-Active-GitHub-Forks](img/docker-Active-GitHub-Forks_header.png)](https://github.com/techgaun/active-forks)
+[![docker-Active-GitHub-Forks](img/docker-active-github-forks_header.png)](https://github.com/techgaun/active-forks)
 
 ---
 
@@ -13,7 +13,7 @@ docker-Active-GitHub-Forks
 
 This project allows you to find the most active forks of a repository.
 
-[![active-forks](img/docker-Active-GitHub-Forks_screenshot.png)](https://github.com/techgaun/active-forks)
+[![active-forks](img/docker-active-gitHub-forks_screenshot.png)](https://github.com/techgaun/active-forks)
 
 ---
 
