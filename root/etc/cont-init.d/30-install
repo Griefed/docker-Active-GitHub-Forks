@@ -4,7 +4,7 @@ if [ ! -a /config/www/active-github-fork.lock ]; then
   echo "**** Installing Active-GitHub-Forks  ****"
   rm -Rf /config/www/*
   git clone \
-    https://github.com/techgaun/active-forks.git \
+    https://github.com/lukaszmn/active-forks.git \
       /config/www
   touch /config/www/active-github-fork.lock
   chown -R abc:abc \
