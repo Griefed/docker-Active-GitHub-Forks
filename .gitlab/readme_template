@@ -1,4 +1,4 @@
-[![$GITHUB_REPONAME](img/$GITHUB_REPONAME_HEADER)](https://github.com/$CREATOR_USERNAME/$CREATOR_REPONAME)
+[![$GITHUB_REPONAME](img/$GITHUB_REPONAME_HEADER)](https://github.com/$GITHUB_USERNAME/$GITHUB_REPONAME)
 
 ---
 
@@ -13,13 +13,13 @@ $GITHUB_REPONAME
 
 $DESCRIPTION
 
-[![$CREATOR_REPONAME](img/$GITHUB_REPONAME_SCREENSHOT)](https://github.com/$CREATOR_USERNAME/$CREATOR_REPONAME)
+[![$CREATOR_REPONAME2](img/$GITHUB_REPONAME_SCREENSHOT)](https://github.com/$CREATOR_USERNAME2/$CREATOR_REPONAME2)
 
 ---
 
 Creates a Container which runs [$CREATOR_USERNAME2's](https://github.com/$CREATOR_USERNAME2) [$CREATOR_REPONAME2](https://github.com/$CREATOR_USERNAME2/$CREATOR_REPONAME2), a fork of [$CREATOR_USERNAME1's](https://github.com/$CREATOR_USERNAME1) [$CREATOR_REPONAME1](https://github.com/$CREATOR_USERNAME1/$CREATOR_REPONAME1), with [$BASE_IMAGE](https://hub.docker.com/r/$BASE_IMAGE) as the base image, as seen on $EXAMPLE_SITE_LINK.
 
-The $BASE_IMAGE image is a custom base image built with [Alpine linux](https://alpinelinux.org/) and [S6 overlay](https://github.com/just-containers/s6-overlay).
+The [$BASE_IMAGE](https://hub.docker.com/r/$BASE_IMAGE) image is a custom base image built with [Alpine linux](https://alpinelinux.org/) and [S6 overlay](https://github.com/just-containers/s6-overlay).
 Using this image allows us to use the same user/group ids in the container as on the host, making file transfers much easier
 
 ## Deployment

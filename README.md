@@ -1,4 +1,4 @@
-[![docker-Active-GitHub-Forks](img/docker-active-github-forks_header.png)](https://github.com/techgaun/active-forks)
+[![docker-Active-GitHub-Forks](img/docker-Active-GitHub-Forks_header.png)](https://github.com/lukaszmn/active-forks)
 
 ---
 
@@ -13,16 +13,21 @@ docker-Active-GitHub-Forks
 
 This project allows you to find the most active forks of a repository.
 
-[![active-forks](img/docker-active-github-forks_screenshot.png)](https://github.com/techgaun/active-forks)
+[![](img/docker-Active-GitHub-Forks_screenshot.png)](https://github.com/lukaszmn/active-forks)
 
 ---
 
-Creates a Container which runs [techgaun's](https://github.com/techgaun) [active-forks](https://github.com/techgaun/active-forks), with [lsiobase/nginx](https://hub.docker.com/r/lsiobase/nginx) as the base image, as seen on https://techgaun.github.io/active-forks/.
+Creates a Container which runs [lukaszmn's](https://github.com/lukaszmn) [active-forks](https://github.com/lukaszmn/active-forks), a fork of [techgaun's](https://github.com/techgaun) [active-forks](https://github.com/techgaun/active-forks), with [lsiobase/nginx](https://hub.docker.com/r/lsiobase/nginx) as the base image, as seen on https://techgaun.github.io/active-forks/.
 
-The lasiobase/nginx image is a custom base image built with [Alpine linux](https://alpinelinux.org/) and [S6 overlay](https://github.com/just-containers/s6-overlay).
+The lsiobase/nginx image is a custom base image built with [Alpine linux](https://alpinelinux.org/) and [S6 overlay](https://github.com/just-containers/s6-overlay).
 Using this image allows us to use the same user/group ids in the container as on the host, making file transfers much easier
 
 ## Deployment
+
+Tags | Description
+-----|------------
+`latest` | Using the `latest` tag will pull the latest image for amd64/x86_64 architecture.
+`arm` | Using the `arm`tag will pull the latest image for arm architecture. Use this if you intend on running the container on a Raspberry Pi 3B, for example.
 
 ### Pre-built images
 
