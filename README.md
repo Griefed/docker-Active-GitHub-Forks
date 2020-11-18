@@ -1,4 +1,4 @@
-[![docker-Active-GitHub-Forks](img/docker-Active-GitHub-Forks_header.png)](https://github.com/Griefed/docker-Active-GitHub-Forks)
+[![docker-Active-GitHub-Forks](https://i.griefed.de/images/2020/11/18/docker-active-github-forks_header.png)](https://github.com/Griefed/docker-Active-GitHub-Forks)
 
 ---
 
@@ -13,7 +13,7 @@ docker-Active-GitHub-Forks
 
 This project allows you to find the most active forks of a repository.
 
-[![active-forks](img/docker-Active-GitHub-Forks_screenshot.png)](https://github.com/lukaszmn/active-forks)
+[![active-forks](https://i.griefed.de/images/2020/11/18/docker-active-github-forks_screenshot.png)](https://github.com/lukaszmn/active-forks)
 
 ---
 
