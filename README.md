@@ -1,4 +1,4 @@
-[![docker-Active-GitHub-Forks](img/docker-Active-GitHub-Forks_header.png)](https://github.com/lukaszmn/active-forks)
+[![docker-Active-GitHub-Forks](img/docker-Active-GitHub-Forks_header.png)](https://github.com/Griefed/docker-Active-GitHub-Forks)
 
 ---
 
@@ -13,13 +13,13 @@ docker-Active-GitHub-Forks
 
 This project allows you to find the most active forks of a repository.
 
-[![](img/docker-Active-GitHub-Forks_screenshot.png)](https://github.com/lukaszmn/active-forks)
+[![active-forks](img/docker-Active-GitHub-Forks_screenshot.png)](https://github.com/lukaszmn/active-forks)
 
 ---
 
 Creates a Container which runs [lukaszmn's](https://github.com/lukaszmn) [active-forks](https://github.com/lukaszmn/active-forks), a fork of [techgaun's](https://github.com/techgaun) [active-forks](https://github.com/techgaun/active-forks), with [lsiobase/nginx](https://hub.docker.com/r/lsiobase/nginx) as the base image, as seen on https://techgaun.github.io/active-forks/.
 
-The lsiobase/nginx image is a custom base image built with [Alpine linux](https://alpinelinux.org/) and [S6 overlay](https://github.com/just-containers/s6-overlay).
+The [lsiobase/nginx](https://hub.docker.com/r/lsiobase/nginx) image is a custom base image built with [Alpine linux](https://alpinelinux.org/) and [S6 overlay](https://github.com/just-containers/s6-overlay).
 Using this image allows us to use the same user/group ids in the container as on the host, making file transfers much easier
 
 ## Deployment
