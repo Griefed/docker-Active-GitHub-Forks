@@ -13,7 +13,14 @@ docker-Active-GitHub-Forks
 
 This project allows you to find the most active forks of a repository.
 
-[![active-forks](https://i.griefed.de/images/2020/11/18/docker-active-github-forks_screenshot.png)](https://github.com/lukaszmn/active-forks)
+A couple of features useful to compare forks:
+* works after providing a **personal GitHub token**. It is used only to increase the limits to query to API. The token is stored in Local Storage only, not sent anywhere except for the GitHub API.
+* include the **original repository** in the list, marked in bold
+* after expanding **Options**, it is possible to increase the **maximum amount of forks** to retrieve and to utilize some kind of caching
+* retrieve **commits of each fork** and show the differences
+* click on box in the **Diff** column to see the commits
+
+[![active-forks](https://i.griefed.de/images/2020/11/19/docker-active-github-forks_screenshot_fork.png)](https://github.com/lukaszmn/active-forks)
 
 ---
 
